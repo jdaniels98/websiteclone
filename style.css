@@ -4,6 +4,33 @@ body {
     background-color: #000000;
 }
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    align-content: row;
+    color: #ffffff;
+}
+
+.bgimg {
+    display: flex;
+    width: 55%;
+    height: 100vh;
+    margin-bottom: 0px;
+    justify-content: flex-start;
+}
+
+.row .minilogo {
+    float: left;
+    height: 65px;
+    width: 65px;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
 .footer_nav {
     font-size: 15px;
     font-style: normal;
