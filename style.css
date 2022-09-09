@@ -35,14 +35,14 @@ body {
 }
 
 .mainheader {
-    font-size: 80px;
+    font-size: 70px;
     margin-left: 40px;
     margin-bottom: 0;
     margin-top: 0;
 }
 
 .jointwt {
-    font-size: 40px;
+    font-size: 35px;
     margin-left: 40px;
 }
 
@@ -51,10 +51,26 @@ body {
 }
 
 .policy {
-    margin-top: 0;
-    margin-left: 55px;
+    margin-top: 5px;
+    margin-left: 50px;
     margin-bottom: 30px;
     font-size: 10px;
+    color: #717669;
+}
+
+.policynav {
+    text-decoration: none;
+    color: #1d9bc7;
+}
+
+.policynav:hover {
+    text-decoration: underline;
+}
+
+.acctxt {
+    font-size: 15px;
+    margin-left: 40px;
+    margin-bottom: 20px;
 }
 
 button {
@@ -66,7 +82,7 @@ button {
     text-align: center;
     display: inline-block;
     font-size: 14px;
-    margin-left: 50px;
+    margin-left: 45px;
   }
 
 .navlinks {
