@@ -2,11 +2,7 @@ body {
     margin: 0;
     height: 100vh;
     background-color: #000000;
-}
-
-.container {
-    display: flex;
-    flex-direction: column;
+    font-family: 'Segoe UI', sans-serif
 }
 
 .row {
@@ -23,35 +19,55 @@ body {
     justify-content: flex-start;
 }
 
-.row .minilogo {
+.minilogo {
     float: left;
     height: 65px;
     width: 65px;
     margin-top: 25px;
     margin-left: 25px;
+    margin-bottom: 45px;
 }
 
-.footer_nav {
-    font-size: 15px;
-    font-style: normal;
-}
-
-.footer_nav:hover {
-    text-decoration: underline;
-}
-
-.bgimg {
+.column {
     display: flex;
-    width: 55%;
-    height: 100vh;
-    margin-bottom: 0px;
-    justify-content: flex-start;
+    flex-direction: column;
+    color: #ffffff;
 }
 
-footer {
-    margin-top: 0;
+.mainheader {
+    font-size: 80px;
+    margin-left: 40px;
     margin-bottom: 0;
+    margin-top: 0;
 }
+
+.jointwt {
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+.or{
+    margin-left: 160px;
+}
+
+.policy {
+    margin-top: 0;
+    margin-left: 55px;
+    margin-bottom: 30px;
+    font-size: 10px;
+}
+
+button {
+    cursor: pointer;
+    background-color: white;
+    width: 300px;
+    height: 35px;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 50px;
+  }
 
 .navlinks {
     display: flex;
