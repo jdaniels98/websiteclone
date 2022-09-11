@@ -46,8 +46,14 @@ body {
     margin-left: 40px;
 }
 
-.or{
-    margin-left: 160px;
+.or {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+}
+
+.dash {
+    color: #20272c;
 }
 
 .policy {
@@ -68,9 +74,10 @@ body {
 }
 
 .acctxt {
-    font-size: 15px;
-    margin-left: 40px;
+    font-size: 17px;
+    margin-left: 50px;
     margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 button {
@@ -85,14 +92,23 @@ button {
     margin-left: 45px;
   }
 
+.buttons1 button input {
+    margin-right: 5px;
+    width: 17px;
+    height: 17px;
+}
+
 .buttons2 {
+    margin-top: 0px;
     background-color: #1d9bf0;
     border: 0;
     color: white;
 }
 
-.signin {
+.signin button {
+    background-color: black;
     color: #1d9bc7;
+    border-color: #20272c;
     
 }
 
